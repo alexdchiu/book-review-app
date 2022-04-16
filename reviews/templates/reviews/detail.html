@@ -13,8 +13,8 @@
     <header>
       <div>My Book Reviews</div>
       <nav>
-        <a href="main.html">Back to list</a>
-        <a href="create.html">Create a review</a>
+        <a href="{% url "reviews_list" %}">Back to list</a>
+        <a href="{% url "create_review" %}">Create a review</a>
       </nav>
       <main>
         <div class="detail-page-book-review">
